@@ -1,0 +1,329 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: rgb(17 10 26);
+  /* position:fixed; */
+}
+nav {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(30 12 47);
+  z-index: 2;
+}
+
+.right_nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.search input {
+  margin: 0px;
+  color: white;
+  background-color: rgb(55 11 55);
+  padding: 3px;
+  border: 1px solid rgb(55 11 55);
+  border-radius: 13px;
+}
+.search ::placeholder {
+  color: white;
+}
+.search {
+  margin: 10px;
+}
+.noti img {
+  width: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.left_nav {
+  display: flex;
+  top: 0px;
+  position: absolute;
+}
+.logo2 img
+ {
+  width: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+.logo1 img
+{
+    width:45px;
+    margin:10px;
+    margin-top: 4px;
+}
+.title
+{
+    width: 10px;
+    word-wrap: inherit;
+    height: 10px;
+    font-size: 10px;
+}
+.fav 
+{
+    margin-left: 190px;
+    margin-top:20px
+}
+.sec1
+{
+  width:60%;
+}
+.play_img
+{
+margin-top: 2%;
+display: flex;
+position: relative;
+justify-content: space-between;
+}
+.play_img img
+{
+  width:30%; 
+  height: 200px;
+  margin :20px;
+  transition: zoom 1s;
+  opacity: 0.9;
+  
+}
+
+.play_img img:hover
+{
+  transform: scale(1.2);
+  opacity: 1.2;
+}
+.item1 img
+{
+  height: 100px;
+  width: 100px;
+}
+.song1sec
+{
+
+  margin-top:50px;
+  margin-left:30px;
+}
+.itemsofsec1
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.itemsofsec1 img{
+  height: 70px;
+  width: 100px;
+  margin:20px;
+}
+.latest
+{
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left:18px;
+  margin-bottom: 15px;
+}
+.desc
+{
+  display: inline;
+  width: 150px;
+  height: 70px;
+  border: 2px solid rgb(33, 13, 80);
+  margin:20px;
+  border-radius: 12px;
+}
+.item_sec1
+{
+  display: flex;
+  width: 50%;
+}
+.latest_release
+{
+  margin-top: 70px;
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: relative;
+}
+.drop select
+{
+height: 4px;
+width: 14px;
+position: relative;
+left:80%;
+display: inline-block;
+top:-74px;
+color:grey;
+}
+.drop select option
+{
+  color: grey;
+}
+.items1
+{
+  width: 40px;
+  word-wrap: inherit;
+  font-size: 13px;
+  margin: 12px;
+  line-height: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.popular_artist
+{
+  display: flex;
+}
+.popular_artist .artist img
+{
+  border-radius: 100%;
+  height: 100px;
+  
+}
+.artist 
+{
+  display: flex;
+  flex-direction: column;
+  margin:3px;
+  padding: 12px;
+  width: 15%;
+}
+.artist_name
+{
+  margin-top: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-left:8px;
+}
+.playlist
+{ display: inline-block;
+  position: fixed;
+  top:18%;
+  left:68%;
+  width:30%;
+  height:72%;
+  padding: 12px;
+  border: 2px solid rgb(33, 13, 80);
+}
+.playlistitems
+{
+  display: flex;
+  height: 90%; 
+  /* width: 100%; */
+  flex-direction: row;
+  align-items: center;
+  flex-wrap:wrap;
+  overflow:scroll;
+}
+.playlistitems::-webkit-scrollbar
+{
+  display: none;
+}
+.playit{
+width: 80%;
+height: 50px;
+border: 2px solid rgb(33, 13, 80);
+margin: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 23px;
+}
+.playit audio
+{
+  width: 60%;
+  height: 30%;
+  margin: 12px;
+  position: relative;
+   
+}
+.playit img
+{
+  width: 18%;
+  height: 40%;
+  margin-left: 12px;
+  position: relative;
+}
+.nameplaylist
+{
+  font-size: 12px;
+  position: relative;
+  top:32%;
+  left:-190px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sec3 .img
+{
+display: inline;
+
+}
+ .img1
+{
+  background-image:url("electronic.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:100%;
+  height: 120px;
+  width: 28%;
+  margin: 12px;
+  margin-top: 20px;
+  transition:0.2s ;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.img2
+{
+  background-image:url("roadtrip.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:100%;
+  height: 120px;
+  width: 28%;
+  margin: 12px;
+  margin-top: 20px;
+  transition:0.2s ;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+.img3
+{
+  background-image:url("party.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:100%;
+  height: 120px;
+  width: 28%;
+  margin: 12px;
+  margin-top: 20px;
+  transition:0.2s ;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec3 .img1:hover
+{
+  background-size: 140%;
+}
+.sec3 .img2:hover
+{
+  background-size: 140%;
+}
+.sec3 .img3:hover
+{
+  background-size: 140%;
+}
+.sec4
+{
+  margin-top: 20px;
+}
+.sec5
+{
+  margin-top: 20px;
+}
+.englishitem img
+{
+ margin:10px;
+ height: 80px;
+ width: 10%;
+}
